@@ -82,7 +82,7 @@
             <a href="/melo-creations" data-nav="melo" class="block min-h-[44px] rounded py-2.5 text-ink no-underline hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">Melo Creations</a>
             <a href="/linentable" data-nav="linentable" class="block min-h-[44px] rounded py-2.5 text-ink no-underline hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">LinenTable</a>
             <a href="https://ethicalfutures.institute" target="_blank" rel="noopener noreferrer" data-nav="efi" class="block min-h-[44px] rounded py-2.5 text-ink no-underline hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">Ethical Futures</a>
-            <a href="/intelligence#contact" data-nav="contact" class="block min-h-[44px] rounded py-2.5 text-ink no-underline hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">Contact</a>
+            <a href="/contact" data-nav="contact" class="block min-h-[44px] rounded py-2.5 text-ink no-underline hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50">Contact</a>
           </nav>
         </div>
       </details>
@@ -257,7 +257,7 @@
           if (k === 'home' && path === '/') match = true;
           if (k === 'intel' && path === '/intelligence' && hash !== '#publications' && hash !== '#contact') match = true;
           if (k === 'research' && (path === '/intelligence' && hash === '#publications' || path === '/submit-paper')) match = true;
-          if (k === 'contact' && path === '/intelligence' && hash === '#contact') match = true;
+          if (k === 'contact' && ((path === '/intelligence' && hash === '#contact') || path === '/contact')) match = true;
           if (k === 'tpd' && path === '/tpd-studio') match = true;
           if (k === 'screenbuddy' && path === '/screenbuddy') match = true;
           if (k === 'melo' && path === '/melo-creations') match = true;

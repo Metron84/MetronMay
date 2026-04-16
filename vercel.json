@@ -15,7 +15,8 @@
     { "source": "/linentable-pitch-deck.html", "destination": "/linentable-pitch-deck", "permanent": true },
     { "source": "/melo-creations.html", "destination": "/melo-creations", "permanent": true },
     { "source": "/melo-creations-studio-deck.html", "destination": "/melo-creations-studio-deck", "permanent": true },
-    { "source": "/index-legacy.html", "destination": "/index-legacy", "permanent": true }
+    { "source": "/index-legacy.html", "destination": "/index-legacy", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact", "permanent": true }
   ],
   "rewrites": [
     { "source": "/tpd-studio", "destination": "/tpd-studio.html" },
@@ -30,6 +31,7 @@
     { "source": "/linentable-pitch-deck", "destination": "/linentable-pitch-deck.html" },
     { "source": "/melo-creations", "destination": "/melo-creations.html" },
     { "source": "/melo-creations-studio-deck", "destination": "/melo-creations-studio-deck.html" },
-    { "source": "/index-legacy", "destination": "/index-legacy.html" }
+    { "source": "/index-legacy", "destination": "/index-legacy.html" },
+    { "source": "/contact", "destination": "/contact.html" }
   ]
 }
